@@ -1,0 +1,73 @@
+body{
+    background-color: #373737 ;
+    font-family: Roboto,sans-serif !important;
+    color: white !important;
+}
+
+#theRow{
+    width: 220px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#textField{
+    border-radius: 80px !important;
+    margin: 0 auto;
+    float: none;
+    border-width: 0;
+    box-shadow: none !important;
+    cursor: pointer;
+    color: white !important;
+}
+
+#textField:focus{
+    outline: none !important;
+}
+
+#xButton{
+    color: white;
+    background: none;
+    border: none;
+    display: none;
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 16px 0 0;
+    font-size: 20px;
+
+}
+
+#searchButton{
+    color: white;
+    background: none;
+    border: none;
+    display: none;
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 6px 38px 0 0;
+    font-size: 18px;
+}
+
+div{
+    border-color: #2D4E00;
+}
+
+.result{
+    margin-top: 5px;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    #searchDiv{
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    #searchDiv{
+        margin-top: 230px;
+    }
+}
